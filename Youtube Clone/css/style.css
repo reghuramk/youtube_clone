@@ -52,12 +52,21 @@ i{
 
 .head_centre{
    
+    
+    padding: 0 40px;
     display: flex;
     margin: auto;
-    width: 469px;
-    height:32px;
+    width: 728px;
+    height: 32px;
     
 }
+
+#search_box{
+    width: 640px;
+    height: 32px;
+}
+
+
 
 .head_right{
     width:225px ;
