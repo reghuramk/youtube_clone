@@ -19,7 +19,7 @@ i{
 }
 
 .header{
-
+    /* align-items: center; */
     display: flex;  
     height: 56px; 
     padding: 15px 16px;
@@ -36,9 +36,9 @@ i{
     
     position: absolute !important;
     top: -8px !important;
-    left: 65px;
-    width: 115px !important;
-    height: 74px !important;       
+    left: 62px;
+    width: 110px !important;
+    height: 69px !important;       
 } 
 
 
@@ -46,26 +46,74 @@ i{
 .header_left p{
     float: left;
     position: absolute;
-    top: 1px;
+    top: -1px;
 }
 
 
-.head_centre{
-   
+.head_centre  {   
     
-    padding: 0 40px;
+    justify-content: space-between;
     display: flex;
-    margin: auto;
+    margin: auto 583px auto auto;
     width: 728px;
     height: 32px;
+          
+}
+
+
+
+.mytext{
     
-}
-
-#search_box{
-    width: 640px;
+    margin:auto;
+    position: absolute;
+    top:13px;
+    font-family: 'Roboto','Noto',sans-serif;
+    width:575px;
     height: 32px;
+    background-color : #121212;
+    border: 1px solid #303030;
+    border-radius: 2px 0 0 2px;
+    font-size: 16px;   
+    padding: 2px 12px; 
+    margin-left: 70px;
+
 }
 
+.mytext_1
+{
+    justify-content: space-between;
+    margin:auto;
+    position: absolute;
+    top: -1px;
+    left: -68px;
+    font-family: 'Roboto','Noto',sans-serif;
+    width:575px;
+    height: 32px;
+    background-color : #121212;
+    border: none;
+    border: 1px solid #303030;
+    border-radius: 2px 0 0 2px;
+    font-size: 16px;   
+    padding: 2px 12px; 
+    margin-left: 66px;
+    caret-color: rgb(255, 255, 255);
+}
+
+
+
+button{
+    position: absolute;
+    top:13px;
+    right: 670px;
+    width: 65px;
+    height: 32px;
+    background-color: #313131;
+    border: none;
+}
+
+/* form{
+    border: 1px solid #303030; 
+} */
 
 
 .head_right{
