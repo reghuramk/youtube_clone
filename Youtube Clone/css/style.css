@@ -159,4 +159,37 @@ button{
     height: 56px;
     border-top: 1px solid rgb(255 255 255 / 0.1);
     border-bottom: 1px solid rgb(255 255 255 / 0.1);
+    background-color: #202020;
+    cursor: pointer;
+}
+
+.side_container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    visibility: visible;
+    width: 20px;
+    content: '';
+}
+
+.main_section1{
+    width:  240px;
+    height: 385px;
+    font-family: Roboto, Noto, sans-serif;
+    padding: 12px 0px;
+}
+
+.main_section1 .section_1{
+
+    height:50%;
+
+}
+
+.main_section1 .section_2{
+    height:50%;
+}
+
+.main_section1 .section_1 .icon{
+    height: 40px;
 }
