@@ -175,21 +175,149 @@ button{
 
 .main_section1{
     width:  240px;
-    height: 385px;
-    font-family: Roboto, Noto, sans-serif;
+    height: 410px; 
     padding: 12px 0px;
+    border-bottom: 1px solid rgb(255 255 255 / 0.1);
 }
 
-.main_section1 .section_1{
 
-    height:50%;
+.main_section1 .section_1{
+    height: 115px; 
+    /* border-bottom: 1px solid rgb(255 255 255 / 0.1) */
 
 }
 
 .main_section1 .section_2{
-    height:50%;
+    
+
+    height: 246px;  
+    ;
+    
 }
 
-.main_section1 .section_1 .icon{
+
+
+/*       .categories_li_1                */
+
+.section_1 .categories_li_1 {
+    
+    width: 240px;
     height: 40px;
+    cursor: pointer;
+    align-items: center;
+    padding-right: 24px;
+    padding-left: 24px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: Roboto, Noto, sans-serif;
+    
 }
+
+
+.section_1 .categories_li_1 i{
+
+    margin-right: 24px;
+    position: absolute;
+    top: 77px;
+    left: 30px;
+     
+}
+
+.section_1 .categories_li_1  p{
+
+    position: absolute;
+    left: 69px;
+    top: 62px;
+}
+
+/*       .categories_li_2               */
+
+.section_1 .categories_li_2 {
+    
+    width: 240px;
+    height: 40px;
+    cursor: pointer;
+    align-items: center;
+    padding-right: 24px;
+    padding-left: 24px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: Roboto, Noto, sans-serif;
+    
+}
+
+
+.section_1 .categories_li_2 i{
+
+    margin-right: 24px;
+    position: absolute;
+    top: 120px;
+    left: 30px;
+     
+}
+
+.section_1 .categories_li_2 p{
+
+    position: absolute;
+    left: 69px;
+    top: 105px;
+}
+
+
+/*       .categories_li_3               */
+
+.section_1 .categories_li_3 {
+    
+    width: 240px;
+    height: 40px;
+    cursor: pointer;
+    align-items: center;
+    padding-right: 24px;
+    padding-left: 24px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: Roboto, Noto, sans-serif;
+    
+}
+
+
+.section_1 .categories_li_3 i{
+
+    margin-right: 24px;
+    position: absolute;
+    top: 160px;
+    left: 30px;
+     
+}
+
+.section_1 .categories_li_3 p{
+
+    position: absolute;
+    left: 69px;
+    top: 145px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ .section_2 {
+    border-top: 1px solid rgb(255 255 255 / 0.1);
+    position: absolute;
+    top: 198px;
+    padding-right: 24px;
+    padding-left: 24px;
+    cursor: pointer;
+    font-family: Roboto, Noto, sans-serif;
+    font-size: 14px;
+    width: 240px;
+    height: 40px;
+    font-weight: 500;
+} 
