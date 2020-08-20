@@ -187,15 +187,11 @@ button{
 
 }
 
-.main_section1 .section_2{
-    
-
-    height: 246px;  
-    ;
-    
-}
 
 
+/* MAIN SECTION */
+
+/*     .section_1    */
 
 /*       .categories_li_1                */
 
@@ -230,6 +226,13 @@ button{
     top: 62px;
 }
 
+.section_1 .categories_li_1:hover, .section_1 .categories_li_2:hover,  .section_1 .categories_li_3:hover{
+        background-color: #383838;
+}
+
+
+
+
 /*       .categories_li_2               */
 
 .section_1 .categories_li_2 {
@@ -243,6 +246,7 @@ button{
     font-weight: 500;
     font-size: 14px;
     font-family: Roboto, Noto, sans-serif;
+    color: #e7e7e7;
     
 }
 
@@ -298,15 +302,9 @@ button{
 }
 
 
+/* MAIN SECTION */
 
-
-
-
-
-
-
-
-
+/*     .section_2     */
 
  .section_2 {
     border-top: 1px solid rgb(255 255 255 / 0.1);
@@ -318,6 +316,78 @@ button{
     font-family: Roboto, Noto, sans-serif;
     font-size: 14px;
     width: 240px;
-    height: 40px;
+    height: 246px; 
     font-weight: 500;
 } 
+
+
+ul{ 
+    height: 246px; 
+    padding-top: 12px;
+    padding-bottom: 12px; 
+    margin-left: -19px;
+    /* list-style: none; */
+}
+
+ li:hover{
+    background-color: #383838;
+
+}
+.section_2 li{
+    padding: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: Roboto, Noto, sans-serif;
+    /* text-align: center; */
+    list-style-position: initial;
+    height: 40px;      
+}
+
+.section_2 .lib{
+    margin-left: -45px;
+    padding-right: 24px;
+    padding-left: 71px;
+    width: 240px;
+    margin-top: -11px ;
+}
+
+.section_2 .hist{
+    margin-left: -45px;
+    padding-right: 24px;
+    padding-left: 71px;
+    width: 240px;
+    margin-top: 0px ;
+}
+
+.section_2 .Your{
+    margin-left: -45px;
+    padding-right: 24px;
+    padding-left: 71px;
+    width: 240px;
+    margin-top: 0px ;
+}
+
+.section_2 .Watch{
+    margin-left: -45px;
+    padding-right: 24px;
+    padding-left: 71px;
+    width: 240px;
+    margin-top: 0px ;
+}
+
+.section_2 .Liked{
+    margin-left: -45px;
+    padding-right: 24px;
+    padding-left: 71px;
+    width: 240px;
+    margin-top: 0px ;
+}
+
+.section_2 .Show{
+    margin-left: -45px;
+    padding-right: 24px;
+    padding-left: 70px;
+    width: 240px;
+    margin-top: 0px ;
+}
+
