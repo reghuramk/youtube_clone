@@ -577,3 +577,50 @@ button{
     padding: 3px 3px 3px 3px;
     border-radius: 2px;
 }
+
+.vid_contents .video_tile .contents .details .meta .meta_data{
+
+    width: 288px;
+    height: 36px;
+
+}
+
+.vid_contents .video_tile .contents .details .meta .meta_data .channel_name {
+
+    height: 18px;
+    width: 288px;
+}
+
+.vid_contents .video_tile .contents .details .meta .meta_data .channel_name .channel{
+
+    width: 118px;
+    height: 18px;
+}
+
+.vid_contents .video_tile .contents .details .meta .meta_data .channel_name .badge{
+
+    height: 15px;
+    width: 17px;
+
+}
+
+.vid_contents .video_tile .contents .details .meta .meta_data .metadata_line{
+
+    width: 288px;
+    height: 18px;
+}
+
+.vid_contents .video_tile .contents .details .meta .meta_data .metadata_line .views{
+
+    height: 18px;
+    width: 71px;
+
+
+
+}
+
+.vid_contents .video_tile .contents .details .meta .meta_data .metadata_line .time_period{
+
+    height: 18px;
+    width: 65px;
+}
