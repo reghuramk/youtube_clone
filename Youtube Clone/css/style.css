@@ -525,12 +525,9 @@ button{
     -webkit-box-orient: vertical;
     max-width: 100%;
     display: -webkit-box;
-    max-height: 44px;
+    max-height: 87px;;
+    line-height:18px;
     
-    
-
-
-
 
 }
 
@@ -589,6 +586,8 @@ button{
 
     height: 18px;
     width: 288px;
+    margin-top: 4px;
+    line-height:18px;
 }
 
 .vid_contents .video_tile .contents .details .meta .meta_data .channel_name .channel{
@@ -608,6 +607,8 @@ button{
 
     width: 288px;
     height: 18px;
+    margin-top: 1px;
+    line-height:18px;
 }
 
 .vid_contents .video_tile .contents .details .meta .meta_data .metadata_line .views{
@@ -623,4 +624,39 @@ button{
 
     height: 18px;
     width: 65px;
+}
+
+
+
+.vid_contents .video_tile .contents .details .meta .meta_data .channel_name .channel .channel_text{
+
+    width: 118px;
+    height: 18px;
+    line-height:18px;
+    font-family:Roboto, Arial, sans-serif;
+    font-size:14px;
+    font-weight:400;
+    color:rgb(170, 170, 170);
+    }
+
+
+
+.vid_contents .video_tile .contents .details .meta .meta_data .metadata_line .views {
+
+    font-family:Roboto, Arial, sans-serif;
+    font-size:14px;
+    font-weight:400;
+    color:rgb(170, 170, 170);
+}
+
+
+.vid_contents .video_tile .contents .details .meta .meta_data .metadata_line .time_period{
+
+    font-family:Roboto, Arial, sans-serif;
+    font-size:14px;
+    font-weight:400;
+    color:rgb(170, 170, 170);
+    line-height:18px;
+
+
 }
