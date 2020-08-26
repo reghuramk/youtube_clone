@@ -24,7 +24,7 @@ i{
     padding: 15px 16px;
     position: fixed;
     top: 0;
-    background-color:  rgba(32, 32, 32, 0.9);
+    background-color:  rgba(32, 32, 32, 0.98);
     width:100%;
     z-index: 99;   
 }
@@ -164,7 +164,7 @@ button{
     position: absolute;
     right: 0px;
     top: 56px;
-    height: 1246px ;
+    height: 1448px;
     width: 1663px ;
     background-color: #181818 ;
     
@@ -178,7 +178,7 @@ button{
     cursor: pointer;
     position: fixed;
     top: 0;
-    background-color:  rgba(32, 32, 32, 0.9);
+    background-color:  rgba(32, 32, 32, 0.98);
     width:100%;
     z-index: 99; 
     margin-top: 56px;
@@ -205,6 +205,7 @@ button{
 
 
 .main_section1 .section_1{
+    margin-top: 3px;
     height: 115px; 
     /* border-bottom: 1px solid rgb(255 255 255 / 0.1) */
 
@@ -230,19 +231,23 @@ button{
     padding: 12.5px 25px;
     cursor: pointer;
     padding-right: 24px;
-    padding-left: 36px;
+    padding-left: 31px;
+    padding-top: 8px;
     font-weight: 500;
     font-size: 14px;
     font-family: Roboto, Noto, sans-serif;
     margin-left: -1px;
+    height: 40px;
 
 }
 
+.section_1 .categories_li_1a .material-icons{
 
-.section_1 .categories_li_1a i{
-
-    margin-right: 25px;
+    font-size: 22px;
+    font-weight: 400;
+    
 }
+
 
 
 .section_1 .categories_li_1a{
@@ -259,18 +264,22 @@ button{
     padding: 12.5px 25px;
     cursor: pointer;
     padding-right: 25px;
-    padding-left: 36px;
+    padding-left: 31px;
     font-weight: 500;
     font-size: 14px;
     font-family: Roboto, Noto, sans-serif;
     margin-left: -1px;
+    height: 40px;
+    margin-top: 0px;
 
 }
 
 
-.section_1 .categories_li_1 i{
+.section_1 .categories_li_1 .material-icons{
 
-    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 400;
+
 }
 
 .section_1 .categories_li_1:hover{
@@ -278,15 +287,17 @@ button{
 }
 
 .section_1 .categories_li_1a .list1{
-    padding-left: 8px;
+    padding-left: 28px;
+    padding-top: 4px;
 }
 
 .section_1 .categories_li_1 .list2{
-    padding-left: 8px;
+    padding-left: 26px;
 }
 
 .section_1 .categories_li_1 .list3{
-    padding-left: 8px;
+    padding-left: 27px;
+    padding-top: 2px;
 }
 
 
@@ -300,7 +311,7 @@ button{
     position: absolute;
     top: 200px;
     border-top: 1px solid rgb(255 255 255 / 0.1);
-    padding-top: 11.5px;
+    padding-top: 9px;
     padding-left: 15px;
     margin-top: -52px;
 }
@@ -312,9 +323,9 @@ button{
     display: flex;
     padding: 12.5px 25px;
     cursor: pointer;
-    padding-top: 10px;
+    padding-top: 8px;
     padding-right: 24px;
-    padding-left: 35px;
+    padding-left: 30px;
     font-weight: 500;
     font-size: 14px;
     font-family: Roboto, Noto, sans-serif;
@@ -323,9 +334,11 @@ button{
 
 }
 
-.section_2 .categories_li_1 i{
+.section_2 .categories_li_1 .material-icons{
 
-    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 400;
+
 }
 
 
@@ -334,11 +347,13 @@ button{
 }
 
 .section_2 .categories_li_1 .list{
-    padding-left: 9px;
+    padding-left: 28px;
+    padding-top: 2px;
 }
 
 .section_2 .categories_li_1 .list_w{
-    padding-left: 7px;
+    padding-left: 28px;
+    padding-top: 2px;
 }
 
 /* section_3 */
@@ -607,8 +622,8 @@ button{
 
     width: 288px;
     height: 18px;
-    margin-top: 1px;
-    line-height:18px;
+    margin-top: -2px;
+    line-height: 18px;
 }
 
 .vid_contents .video_tile .contents .details .meta .meta_data .metadata_line .views{
@@ -657,6 +672,14 @@ button{
     font-weight:400;
     color:rgb(170, 170, 170);
     line-height:18px;
+    margin-left: 1px;
 
 
+}
+
+
+.vid_contents .video_tile .contents .details .meta .meta_data .metadata_line .views::after{
+    content: "•";
+    /* margin: 0 4px; */
+    margin-left: 1px;
 }
